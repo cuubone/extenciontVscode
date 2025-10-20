@@ -1,0 +1,305 @@
+{
+  "name": "pardo",
+  "displayName": "pardo",
+  "description": "manuel extencion",
+  "version": "0.1.3",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "manuext.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "myExtension.toggleMyVar",
+        "title": "Toggle MyVar"
+      },
+       {
+        "command": "myExtension.uCommand",
+        "title": "Toggle MyVar"
+      },
+     
+      {
+        "command": "myExtension.yCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.mCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.jCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.hCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.lCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.gCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.oCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.pCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.zCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.xCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.cCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.qCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.wCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.eCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.aCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.sCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.kCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.dCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.bCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.hxCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.spaceCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.backSpaceCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.fCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.iCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.nCommand",
+        "title": "Insertar según myvar"
+      },
+      {
+        "command": "myExtension.rCommand",
+        "title": "Insertar según myvar"
+      }
+       
+    ],
+    "keybindings": [
+      {
+        "key": "4",
+        "command": "myExtension.hxCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "b",
+        "command": "myExtension.bCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "r",
+        "command": "myExtension.rCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "n",
+        "command": "myExtension.nCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "i",
+        "command": "myExtension.iCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "t",
+        "command": "myExtension.toggleMyVar",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "f",
+        "command": "myExtension.fCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "h",
+        "command": "myExtension.hCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "m",
+        "command": "myExtension.mCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "y",
+        "command": "myExtension.yCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "j",
+        "command": "myExtension.jCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "k",
+        "command": "myExtension.kCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "o",
+        "command": "myExtension.oCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "p",
+        "command": "myExtension.pCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "l",
+        "command": "myExtension.lCommand",
+        "when": "editorTextFocus"
+      },
+      
+      {
+        "key": "u",
+        "command": "myExtension.uCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "g",
+        "command": "myExtension.gCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "z",
+        "command": "myExtension.zCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "x",
+        "command": "myExtension.xCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "c",
+        "command": "myExtension.cCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "q",
+        "command": "myExtension.qCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "w",
+        "command": "myExtension.wCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "e",
+        "command": "myExtension.eCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "a",
+        "command": "myExtension.aCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "s",
+        "command": "myExtension.sCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "d",
+        "command": "myExtension.dCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "space",
+        "command": "myExtension.spaceCommand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "v",
+        "command": "myExtension.vCommand",
+        "when": "editorTextFocus"
+      },      {
+        "key": "backspace",
+        "command": "myExtension.backSpaceCommand",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+  "@types/vscode": "^1.105.0",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    
+  }
+}
